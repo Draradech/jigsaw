@@ -152,9 +152,9 @@
             height = 600;
             width = height * ratio;
          }
-         $("puzzlecontainer").setAttribute("width", width + 11);
-         $("puzzlecontainer").setAttribute("height", height + 11);
-         offset = 5.5;
+         $("puzzlecontainer").setAttribute("width", width + 30);
+         $("puzzlecontainer").setAttribute("height", height + 30);
+         offset = 15;
          parse_input();
          $("puzzlepath_h").setAttribute("d", gen_dh());
          $("puzzlepath_v").setAttribute("d", gen_dv());
@@ -221,6 +221,7 @@
       </tr>
    </table>
    <svg id="puzzlecontainer"><path id="puzzlepath_h" fill="none" stroke="DarkBlue"></path><path id="puzzlepath_v" fill="none" stroke="DarkRed"></path><path id="puzzlepath_b" fill="none" stroke="Black"></path></svg>
+   <p><a href="index.html">Back</a></p>
 </body>
 
 </html>
