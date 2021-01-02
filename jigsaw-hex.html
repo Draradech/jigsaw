@@ -5,6 +5,7 @@
    <meta charset="UTF-8">
    <title>Jigsaw puzzle (hex)</title>
    <script type="text/javascript">
+      // save function pieced together from here: https://stackoverflow.com/questions/19327749/javascript-blob-filename-without-link
       function save(filename, data)
       {
          var blob = new Blob([data], {type: "text/csv"});
